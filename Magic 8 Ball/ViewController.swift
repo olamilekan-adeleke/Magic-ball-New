@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var ballImage: UIImageView!
     
     @IBAction func askButtonPrtessed(_ sender: UIButton) {
+        ballImage.image = ballImageList.randomElement();
     }
     
     override func viewDidLoad() {
